@@ -38,6 +38,116 @@ const Home = props => {
       ) : (
         <>
           <div className={styles.container}>
+            <section class={[styles.home_block, styles.hb_managed]}>
+              <div class={styles.container}>
+                <div class={styles.hb_caption}>
+                  <h3>Managed Contests</h3>
+                  <p>
+                    Better than a naming agency: Our hybrid-solution partners
+                    you with a trained Squadhelp branding consultant who will
+                    guide your crowdsourcing process step-by-step to get the
+                    best results possible.
+                  </p>
+                </div>
+
+                <div class={[styles.row]}>
+                  <div
+                    class={[
+                      styles.col_lg_3,
+                      styles.col_md_6,
+                      styles.col_sm_6,
+                      styles.col_6,
+                    ]}
+                  >
+                    <div class={styles.item}>
+                      <div class={styles.icon}>
+                        <img
+                          alt=''
+                          src='https://www.squadhelp.com/html/html/static_images/h-icon6.svg'
+                        />
+                      </div>
+                      <h3>Consultant Led</h3>
+                      <p>
+                        Work one-on-one with a Squadhelp branding consultant.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    class={[
+                      styles.col_lg_3,
+                      styles.col_md_6,
+                      styles.ol_sm_6,
+                      styles.col_6,
+                    ]}
+                  >
+                    <div class={styles.item}>
+                      <div class={styles.icon}>
+                        <img
+                          alt=''
+                          src='https://www.squadhelp.com/html/html/static_images/h-icon7.svg'
+                        />
+                      </div>
+                      <h3>Crowd Powered</h3>
+                      <p>
+                        Work with our top rated Creatives and receive a huge
+                        breadth of ideas.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class={[
+                      styles.col_lg_3,
+                      styles.col_md_6,
+                      styles.ol_sm_6,
+                      styles.col_6,
+                    ]}
+                  >
+                    <div class={styles.item}>
+                      <div class={styles.icon}>
+                        <img
+                          alt=''
+                          src='https://www.squadhelp.com/html/html/static_images/h-icon8.svg'
+                        />
+                      </div>
+                      <h3>Trademark Reports</h3>
+                      <p>
+                        Comprehensive trademark screening on your shortlisted
+                        names.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class={[
+                      styles.col_lg_3,
+                      styles.col_md_6,
+                      styles.ol_sm_6,
+                      styles.col_6,
+                    ]}
+                  >
+                    <div class={styles.item}>
+                      <div class={styles.icon}>
+                        <img
+                          alt=''
+                          src='https://www.squadhelp.com/html/html/static_images/h-icon9.svg'
+                        />
+                      </div>
+                      <h3>Audience Testing</h3>
+                      <p>
+                        Get rapid feedback from real people on your shortlist of
+                        business names.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class={[styles.text_center, styles.pt_5]}>
+                  <a href='/managed-contests' class={[styles.button_brand]}>
+                    <span>Learn More</span>
+                  </a>
+                </div>
+              </div>
+            </section>
+
             <div className={styles.headerBar}>
               <div className={styles.headline}>
                 <span>Find the Perfect Name for</span>
